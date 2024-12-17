@@ -1,0 +1,58 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  /* Headings and Paragraphs */
+  h1 {
+    color: blue;
+  }
+  h2 {
+    color: green;
+  }
+  
+  /* Links */
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Images */
+  img {
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  form {
+    margin-top: 20px;
+  }
+  
+  /* Flexbox Example */
+  .flex-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Media Queries Example */
+  @media (max-width: 600px) {
+    body {
+      background-color: lightgrey;
+    }
+  }
+  
